@@ -49,3 +49,26 @@ ob2.sendoff=function(){
 }
 
 console.log(ob2.sendoff())
+
+console.log("CONCATINATION OF OBBJECTSSSSSSSS------------------------------------------")
+const l1={1:"a",2:"n"}
+const l2={3:"a",4:"n"}
+
+const l3={l1,l2}
+
+console.log(l3)
+
+console.log("AFTER USING ASSIGN")
+
+//same values it will show only one time
+const l4=Object.assign(l1,l2)
+console.log(l4)
+//spread operator
+
+const l5={...l1,...l2}
+console.log(l5)
+
+
+console.log(Object.keys(ob2))
+
+console.log(Object.values(ob2))
